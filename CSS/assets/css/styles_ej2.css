@@ -1,0 +1,42 @@
+body{
+    background-color: #c6d9ee;
+    font-family: sans-serif;
+    text-align: justify;
+    line-height: 25px;
+}
+
+h1{
+    text-align: right;
+    font-size: 3rem;
+}
+
+h2{
+    font-family: monospace;
+    font-size: 3rem;
+    font-variant: small-caps;
+}
+
+.tituloRojo{
+    font-family: "Comic Sans", cursive;
+    color: red;
+}
+
+.naranja{
+    color: chocolate;
+    font-weight: bold;
+}
+
+.naranjaClaro{
+    color: darkorange;
+}
+
+.blanco{
+    background-color: white;
+    color: green;
+    font-style: italic;
+}
+
+.creditos{
+    text-align: center;
+    font-size: 0.8rem;
+}
