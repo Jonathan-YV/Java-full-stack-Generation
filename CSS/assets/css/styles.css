@@ -1,0 +1,26 @@
+.encabezado{
+    font-size: 72px;
+    color: rgb(250, 255, 255);
+    background-color:darkblue;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+body{
+    background-color: rgb(214, 213, 213);
+}
+
+#texto{
+    color: blue;
+    background-color: red;
+}
+
+.texto{
+    color: white;
+    background-color: black;
+}
+
+p{
+    color: brown;
+    background-color: coral;
+}
