@@ -1,0 +1,31 @@
+.formulario{
+    border: 2px solid red;
+}
+
+.nombre{
+    padding: 20px;
+}
+
+.class_nombre{
+    border: 2px solid green;
+}
+
+.apellido{
+    padding: 20px;
+}
+
+.password{
+    padding: 20px;
+}
+
+.correo{
+    padding: 20px;
+}
+
+.enviar{
+    padding: 20px;
+}
+
+.formulario2{
+    padding-top: 50px;
+}
