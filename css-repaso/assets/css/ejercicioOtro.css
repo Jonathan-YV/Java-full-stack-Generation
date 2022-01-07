@@ -1,0 +1,33 @@
+
+body{
+    background-color: rgb(199, 199, 199);
+}
+h1{
+    text-align: center;
+}
+
+h3{
+    background-color: gray;
+    padding: 10px 5px;
+    color: white;
+}
+
+main{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.contenido{
+    width: 88%;
+    margin: 0 auto;
+}
+
+.contenido img{
+    float: left;
+}
+
+.contenido p{
+    text-indent: 20px;
+    text-align: justify;
+    margin-left: 150px;
+}
