@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Meera+Inimai&display=swap');
+
 *{
     margin: 0;
+    font-family: 'Meera Inimai', sans-serif;
 }
 
 .menu{
@@ -16,11 +19,20 @@
 .elemento{
     display: inline-block;
     line-height: 50px;
-    margin: 0 20px;
+    margin: 0 10px;
+    
 }
 
 .elemento a{
     text-decoration: none;
     color: white;
     font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.elemento a:hover{
+    background-color: white;
+    color: rgb(159, 76, 236);
+    transition: 0.5s;
 }
