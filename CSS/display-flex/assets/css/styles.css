@@ -1,0 +1,38 @@
+.contenedor{
+    display: flex;
+    height: auto;
+    border: 3px solid purple;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.caja{
+    width: 100%;
+    height: 300px;
+    font-size: 30px;
+}
+
+.roja{
+    background-color: red;
+}
+
+.verde{
+    background-color: green;
+    align-self: center;
+}
+
+.azul{
+    background-color: blue;
+    align-self: flex-end;
+}
+
+
+
+.amarillo{
+    background-color: yellow;
+}
+
+.morado{
+    background-color: blueviolet;
+}
