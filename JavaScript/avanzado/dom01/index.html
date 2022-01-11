@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Javascript DOM</title>
+    </head>
+    <style>
+        .label{
+            width: 140px;
+            display: inline-block;
+        }
+    </style>
+    <body>
+        <h1 id='titulo'>Javascript DOM</h1>
+
+        <h3>Iniciar sesión</h3>
+        <p>
+            <label class="label" for="email">Correo electrónico</label>
+            <input type="text" name="email" id='email'>
+        </p>
+        <p>
+            <label class="label for="password">Contraseña</label>
+            <input type="password" name='password' id='password'>
+        </p>
+        <p>
+            <button onclick="obtenerDatos();">Iniciar</button>
+        </p>
+
+        <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, fugit!</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium, blanditiis!</p> -->
+
+
+        <script src="assets/js/app.js" defer></script>
+    </body>
+</html>
