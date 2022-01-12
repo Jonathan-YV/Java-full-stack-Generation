@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba</title>
+</head>
+<body>
+
+
+    <h3 id='ed'>Edad</h3>
+    <label for="">Escribe en que año naciste: </label>
+    <input type="number" id='añoN'>
+    <button onclick="calcularEdad()" >Calcular</button>
+
+
+
+    <script>
+
+        const añoActual = 2022;
+        /* const mostrar = document.getElementById('ed'); */
+        console.log(ed)
+
+        function calcularEdad(){
+            const añoNacimiento = parseInt(document.getElementById('añoN').value)
+            console.log(añoNacimiento)
+            const edad = añoActual - añoNacimiento;
+            console.log(edad)
+            ed.textContent = 'Tu edad es de ' + edad + ' años'
+            ed.style.color = 'white';
+        }
+
+    </script>
+    
+</body>
+</html>
