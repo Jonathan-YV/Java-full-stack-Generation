@@ -13,7 +13,6 @@ Si la diferencia entre en número ingresado y el número secreto es mayor a 30, 
 
 */
 
-
 const numeroAleatorio = parseInt(Math.random() * 99 + 1);
 console.log(numeroAleatorio);
 
