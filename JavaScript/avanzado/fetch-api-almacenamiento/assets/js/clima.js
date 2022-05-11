@@ -1,6 +1,6 @@
 let lat = 0
 let lon = 0
-const APIkey = "e71cf9cf0c241685c7e9236a97749247"
+const APIkey = ""
 
 /* https://openweathermap.org/ */
 /* https://openweathermap.org/weather-conditions */
