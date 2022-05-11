@@ -1,7 +1,7 @@
 const calculator = require('./calculator');
 
-test('adds 1 + 2 to equal 3', () => {
-  expect(calculator.add(1, 2)).toBe(3);
+test('adds 2 + 2 to equal 4', () => {
+  expect(calculator.add(2, 2)).toBe(4);
 });
 
 test('adds -4 + 8 to equal 4', () => {

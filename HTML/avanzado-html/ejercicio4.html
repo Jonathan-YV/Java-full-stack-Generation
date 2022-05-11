@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Ejercicio 4</title>
+    <title>Ejercicio 2</title>
     <link rel="stylesheet" href="assets/css/styles-ej4.css">
 </head>
 <body>
@@ -42,6 +42,17 @@
         <div class="boton">
             <input type="button" value="Confirmar pedido">
         </div>
+
+        <script>
+            const formulario = document.querySelector("#formularioDatos")
+            formulario.addEventListener("submit", function (e) {
+                e.preventDefault()
+                const data = Object.fromEntries(
+                    new FormData(e.target)
+                )
+                console.log(data)
+            })
+        </script>
         
     </form>   
 </body>

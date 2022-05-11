@@ -4,7 +4,11 @@ const $cartas = document.querySelector("#cartas");
 fetch(urlAPI)
   .then((resp) => resp.json())
   .then((data) => {
+    console.log(data[0].thumbnailUrl);
+
     data.forEach((dato) => {
+      
+
       const imagen = dato.thumbnailUrl;
       const titulo = dato.title;
 
@@ -17,9 +21,10 @@ fetch(urlAPI)
                             </div>
                         </div>`;
 
-      const carta = document.createElement("div");
+      $cartas.innerHTML += contenido;
+ /*      const carta = document.createElement("div");
       carta.innerHTML = contenido;
 
-      $cartas.appendChild(carta);
+      $cartas.appendChild(carta); */
     });
   });

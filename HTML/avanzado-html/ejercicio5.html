@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio</title>
+</head>
+<body>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+
+        .labelD{
+            display: block;
+        }
+
+        input{
+            border: none;
+            width: 100%;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            height: 20px;
+            padding-left: 10px;
+            box-sizing: border-box;
+        }
+
+        [type="radio"], [type="checkbox"]{
+            width: auto;
+            margin-bottom: 0px;
+        }
+
+        .labelE{
+            display: inline-block;
+            width: 80px;
+        }
+
+        select{
+            border: none;
+            width: 100%;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            height: 20px;
+        }
+
+        [type="submit"]{
+            margin-top: 20px;
+            height: 40px;
+            background-color: gray;
+            color: white;
+        }
+
+        .formulario{
+            background-color: #ccc;
+            width: 300px;
+            padding: 30px 50px;
+            border-radius: 10px;
+
+        }
+        h3{
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        h5{
+            margin-top: 30px;
+        }
+
+    </style>
+
+ 
+    
+
+    <form class="formulario">
+        <h3>Formulario para reservar vuelo</h3>
+        <label class="labelD" for="">Nombre completo*:</label>
+        <input type="text" placeholder="Nombre y apellido" required>
+
+        <label class="labelD" for="">Correo electrónico*:</label>
+        <input type="text" required>
+
+        <label class="labelD" for="">Seleccionar paquete turístico*:</label>
+        <select name="menu" size="1">
+            <option selected>Uno</option>
+            <option value="2">Dos</option>
+            <option >Tres</option>
+          </select>
+
+        <label class="labelD" for="">Fecha de llegada*:</label>
+        <input type="date" required>
+
+        <label class="labelD" for="">Número de personas*:</label>
+        <input type="number" required value="1" min="1" max="10">
+
+        <label class="labelD" for="">¿Qué te gustaría hacer?:</label>
+        <div></div>
+        <label class="labelE" for="">Nadar</label>
+        <input type="checkbox" name="actividad" required value="hola"><br>
+        <label class="labelE" for="">Surfear</label>
+        <input type="checkbox" name="actividad" value="hola"><br>
+        <label style="margin-bottom: 10px;" class="labelE" for="">Turistear</label>
+        <input type="checkbox" name="actividad" value="hola"><br>
+
+        <label class="labelD" for="">Código de cupón de descuento:</label>
+        <input type="text">
+
+        <label class="labelD" for="">Terminos y condiciones*</label>
+        <input type="radio"  name="termino" value="yes" required>
+        <label for="">Acepto</label>
+        <input style="margin-bottom: 10px;" checked type="radio" name="termino" value="no">
+        <label for="">No acepto</label><br>
+
+        <input  type="submit" value="Reservar">
+        <h5 style="text-align: right;">* obligatorios</h5> 
+    </form>
+    
+</body>
+</html>

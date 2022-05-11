@@ -1,0 +1,56 @@
+
+/* Navbar */
+
+.img-logo{
+    width: 200px;
+    height: 50px;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* Carrusel */
+
+.img-carrusel{
+    height: calc(100vh - 76px);
+    object-fit: cover;
+    object-position: center;
+}
+
+.relativo{
+    position: relative;
+    width: auto;
+    
+}
+
+.pantalla{
+    position: absolute;
+    z-index: 1;
+    height: calc(100vh - 76px);
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.cuadro{
+    background-color: rgba(0, 0, 0, 0.503);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 50vw;
+}
+
+
+
+.img-card{
+    
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.videoIframe{
+    width: 100%;
+    height: 250px;
+}

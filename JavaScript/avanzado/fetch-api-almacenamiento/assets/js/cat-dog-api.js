@@ -31,6 +31,7 @@ $btnGato.addEventListener("click",() =>{
             $imagenGato.classList.remove('hide')
             $descargarGato.classList.remove('hide')
             $descargarGato.href = data[0].url
+            $descargarGato.download = data[0].url
             /* let imagenGatito = document.createElement('img');
             imagenGatito.src = data[0].url;
             document.body.appendChild(imagenGatito); */
